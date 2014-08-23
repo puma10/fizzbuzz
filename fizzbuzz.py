@@ -1,7 +1,7 @@
-numEnd = 100
 toPrint = " "
+numEnd = raw_input("Enter something, yo! ")
 
-for i in range(1,numEnd+1):
+for i in range(1,int(numEnd)+1):
     if i%3 == 0 and i%5 == 0:
         print "fizz buzz"
     elif i%3 == 0:
